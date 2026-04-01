@@ -1,0 +1,39 @@
+{
+  "name": "@kradon/memory",
+  "version": "0.1.0",
+  "description": "Multi-Agent Memory System — Index, Search, Age, Compress. Zero dependencies.",
+  "type": "module",
+  "main": "src/index.mjs",
+  "exports": {
+    ".": "./src/index.mjs"
+  },
+  "scripts": {
+    "test": "node test/memory-index.test.mjs && node test/memory-search.test.mjs && node test/session-compress.test.mjs && node test/knowledge-aging.test.mjs && node test/integration.test.mjs"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "memory",
+    "llm",
+    "knowledge-management",
+    "tfidf",
+    "search",
+    "multi-agent",
+    "markdown"
+  ],
+  "author": "Kradon",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kradon-ai/memory.git"
+  },
+  "homepage": "https://kradon.ai",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "src/",
+    "LICENSE",
+    "README.md"
+  ]
+}
